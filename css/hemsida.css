@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: lightsteelblue;
+    font-family: sans-serif;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 99vh;
+    top: 10vh;
+    background-color: lightsteelblue;
+    align-items: center;
+    width: 20%;
+}
