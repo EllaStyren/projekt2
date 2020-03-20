@@ -1,3 +1,9 @@
+
+
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -24,6 +30,10 @@ nav {
     background-color: lightsteelblue;
     align-items: center;
     width: 20%;
+}
+
+.navActive {
+    transform: translateY(100vh)
 }
 
 .navLinks li {
