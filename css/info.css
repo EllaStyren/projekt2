@@ -1,8 +1,6 @@
 body {
     background-color: rgb(233, 230, 230);
 }
-
-
 #container {
     display: grid;
     height: 100vh;
@@ -14,16 +12,9 @@ body {
 }
 
 header {
-grid-area: hd;
-background-color: rgb(233, 230, 230);
-text-align: left;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+    grid-area: hd;
+    background-color: rgb(233, 230, 230);
+    }
 
 nav {
     grid-area: nv;
@@ -39,13 +30,6 @@ nav > h1 > a {
     color: white;
 }
 
-
-header > h1 {
-    text-decoration: none;
-    color: black;
-    text-align: center;
-
-}
 
 .navLinks {
     display: flex;
@@ -109,41 +93,7 @@ main {
     background-color: rgb(233, 230, 230);
 }
 
-main > h1 {
-    text-align: center;
-}
-
-img {
-    width: 10%;
-}
-aside > img {
-    width: 50%;
-}
 footer {
     grid-area: ft;
     background-color: rgb(233, 230, 230);
 }
-
-/* Storlek för olika enheter */
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .column {
-    flex: 25%;
-    padding: 20px;
-  }
-
-  @media screen and (max-width: 992px) {
-    .column {
-      flex: 50%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .row {
-      flex-direction: column;
-    }
-  }
