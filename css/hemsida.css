@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(233, 230, 230);
+    background-color: white;
 }
 
 
@@ -9,14 +9,20 @@ body {
     grid-template-areas:
     'nv nv nv nv'
     'hd hd hd hd'
-    'as mn mn mn'
+    'mn mn mn mn'
     'ft ft ft ft';
+}
+
+article {
+    margin: 16px;
+    padding: 16px;
+    background-color: #eeeeee;
 }
 
 header {
 grid-area: hd;
-background-color: rgb(233, 230, 230);
-text-align: left;
+background-color: rgb(57, 78, 104);
+text-align: center;
 }
 
 * {
@@ -42,8 +48,11 @@ nav > h1 > a {
 
 header > h1 {
     text-decoration: none;
-    color: black;
-    text-align: left;
+    color: #fafafa;
+    text-align: center;
+    font-size: 72px;
+    margin: 16px;
+
 
 }
 
@@ -99,14 +108,9 @@ list-style: none;
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-aside {
-    grid-area: as;
-    background-color: rgb(233, 230, 230);
-}
 
 main {
     grid-area: mn;
-    background-color: rgb(233, 230, 230);
 }
 
 main > h1 {
@@ -114,10 +118,10 @@ main > h1 {
 }
 
 img {
-    width: 10%;
+    width: 300px;
 }
-aside > img {
-    width: 50%;
+main > img {
+    width: 300px;
 }
 footer {
     grid-area: ft;
@@ -125,7 +129,7 @@ footer {
 }
 
 /* Storlek för olika enheter */
-
+/*
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -147,3 +151,5 @@ footer {
       flex-direction: column;
     }
   }
+  */
+  
