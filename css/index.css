@@ -1,0 +1,67 @@
+
+
+article {
+    margin: 16px;
+    padding: 16px;
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: rgb(57, 78, 104);
+    text-align: center;
+}
+
+
+header>h1 {
+    text-decoration: none;
+    color: #fafafa;
+    text-align: center;
+    font-size: 72px;
+    margin: 16px;
+}
+
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main>h1 {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    article {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        margin: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header > h1 {
+        font-size: 32px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        padding-bottom: 32px;
+        flex-direction: column;
+    }
+
+    header > .mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    main > img {
+        align-self: center;
+    }
+
+}
