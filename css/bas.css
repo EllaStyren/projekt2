@@ -15,6 +15,7 @@ body {
     overflow-x: hidden;
 }
 
+
 nav {
     grid-area: nv;
     display: flex;
@@ -57,7 +58,7 @@ nav>h1>a {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .kt div {
@@ -92,7 +93,7 @@ main {
 
 footer {
     grid-area: ft;
-    background-color: rgb(233, 230, 230);
+    background-color:lightgray;
 }
 
 .mobile {
